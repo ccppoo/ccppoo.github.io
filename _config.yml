@@ -1,18 +1,18 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
-url: "https://sylhare.github.io"
+baseurl: "/"
+url: "https://ccppoo.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Type on Strap                                    # site's title
-description: "A website with blog posts and pages"      # used by search engines
+title: ccppoo                                    # site's title
+description: "ccppoo blog"      # used by search engines
 avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
+header_text: ccppoo blog  # Change Blog header text
 header_feature_image: assets/img/pexels/triangular.jpeg
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+  현재 대학교 재학중 (2024 졸업 예정), 동아리 K-NET 회장으로 활동 중
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable

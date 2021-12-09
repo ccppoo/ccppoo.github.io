@@ -1,7 +1,4 @@
-- authors: John Smith
-  title: A Title About Citations
-  key: ref1
-
-- authors: Michael's Rose
-  title: "[Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting)"
-  key: highlight
+# 주석, 참고용 yaml 딱히 쓸 일이..?
+- authors: 
+  title: 
+  key: 
