@@ -1,0 +1,37 @@
+<!-- 
+    참고 : https://jekyllrb.com/docs/includes/
+    이미지 담는 html 함수처럼 이용하기~~~
+
+    나중에 추가로 넣고 싶은게 있다면 아래처럼 html 조각 미리 만들고,
+    변수처럼 넘겨준 것들 include.~~ 사용하면 됨
+
+    사용 방법 (.md 파일 안에서...),  { % 띄어 쓴거 붙이셈
+    { % include image.html src="/assets/img/aws-making-discord-bot/ch3/1_register_bot.png" % }
+    괄호 안에 url = "..." width="..." 원하는거 쓰고, 없는 옵션 추가하는 경우 아래에 쓰면 됨
+-->
+
+<center>
+    {% if {{include.url}} %}
+        <a href=" {{ include.url }}">
+    {% endif %}
+    <img 
+        src="{{ include.src }}"
+
+        {% if {{include.border | default : false }} %}
+        style="
+            border:1px solid;
+            object-fit: contain
+        " 
+        {% endif %}
+
+        alt=" {{ include.alt }} "
+        height=" {{ include.height | default : "" }} "
+        width=" {{ include.width | default : "" }} "
+        max-height =" {{ include.max-height | default : "" }} "
+        max-width = " {{ include.max-width | default : "" }} "
+    />
+    {% if {{include.url}}%}
+        </a>
+    {% endif %}
+    <br>
+</center>
