@@ -4,8 +4,8 @@ title: AWS Codestar로 디스코드 봇 만들기 - 0
 author: ccppoo
 hide_title: false
 color:
-feature-img: "assets/img/feature-img/circuit.jpeg"
-thumbnail: "assets/img/thumbnails/feature-img/circuit.jpeg"
+feature-img:
+thumbnail:
 tags: [AWS, CodeStar, Discord-bot, Python]
 ---
 
