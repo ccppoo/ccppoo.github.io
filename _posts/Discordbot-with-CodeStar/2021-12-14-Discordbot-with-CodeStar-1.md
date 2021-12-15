@@ -29,19 +29,19 @@ AWS에서 프로젝트를 생성하고 내 컴퓨터에서 확인하기
 
 구글에 AWS를 검색하고 메인 사이트에 들어가면 다음과 같은 화면이 보이실 겁니다.
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/1_go_to_console.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/1_go_to_console.png" %}
 
 그리고 로그인을 하시면 **내 계정** 밑에 **AWS Management Console**을 클릭합니다.
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/2_go_to_console.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/2_go_to_console.png" %}
 
 위와 같은 화면이 보이시는데 이번 실습에 사용하는 AWS CodeStar에 들어가기 위해 검색을 합니다
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/3_go_to_console.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/3_go_to_console.png" %}
 
 보이시는 CodeStar 서비스를 클릭합니다.
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/4_go_to_console.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/4_go_to_console.png" %}
 
 CodeStar에 들어오시면 **프로젝트 시작하기**를 클릭합니다.
 
@@ -49,23 +49,23 @@ CodeStar에 들어오시면 **프로젝트 시작하기**를 클릭합니다.
 
 여기서는 프로젝트를 시작하기 위한 기본적인 세팅, 템플릿을 선택하는 과정입니다.
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/5_make_project.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/5_make_project.png" %}
 
 보시다 시피 여러 탬플릿이 있고, 나중에 익숙해지시면 다양한 언어로 프로젝트를 생성할 수 있습니다.
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/6_make_project.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/6_make_project.png" %}
 
 Python(Flask) 템플릿을 선택하고 **Next**를 클릭합니다.
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/7_make_project.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/7_make_project.png" %}
 
 원하시는 프로젝트 이름을 설정하시고, 프로젝트 리포지토리에 Github을 선택합니다.
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/8_make_project.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/8_make_project.png" %}
 
 Github에 연결하기 위해서 AWS가 여러분의 Github 계정에 접근할 수 있는 권한이 필요하기 때문에 **Github에 연결**을 합니다.
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/9_make_project.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/9_make_project.png" %}
 
 위와 같이 창이 뜨는데, AWS가 코드 탬플릿을 여러분의 Github 계정에 직접 만들어주고 github의 issue 내용도 연동하기 위한 것입니다.
 
@@ -73,7 +73,7 @@ Github에 연결하기 위해서 AWS가 여러분의 Github 계정에 접근할 
 
 그리고 **Github에 연결**을 클릭해주세요
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/10_make_project.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/10_make_project.png" %}
 
 새 앱 설치를 클릭해주세요.
 
@@ -85,7 +85,7 @@ Github에서 다양한 웹 서비스와 연동할 수 있는 앱을 의미합니
 
 "Google 계정을 이용해 가입", "카카오톡 계정을 이용해 가입"과 같은 맥락입니다.
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/11_make_project.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/11_make_project.png" %}
 
 그리고 **install**를 클릭해주세요
 
@@ -93,7 +93,7 @@ Github에서 다양한 웹 서비스와 연동할 수 있는 앱을 의미합니
 
 AWS가 직접 레포지토리를 새롭게 만들기 때문입니다.
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/12_make_project.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/12_make_project.png" %}
 
 그러면 자동으로 앱 ID가 첨부되고, **연결**을 클릭해서 진행하면 됩니다.
 
@@ -103,25 +103,25 @@ AWS가 직접 레포지토리를 새롭게 만들기 때문입니다.
 
 만약 자동으로 첨부가 안된다면 Github 사이트에 들어가 본인 계정의 **Settings**에 들어갑니다
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/13_make_project.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/13_make_project.png" %}
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/14_make_project.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/14_make_project.png" %}
 
 스크롤해서 내려가면 Application이 보이실 겁니다.
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/15_make_project.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/15_make_project.png" %}
 
 여기까지 정상적으로 위 과정까지 진행되었다면 아까 말한 설치된 AWS 앱이 보이실 겁니다.
 
 Configure를 클릭해주세요
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/16_make_project.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/16_make_project.png" %}
 
 들어 오시고, 여러분의 보이시는 페이지의 주소창의 마지막 부분에 있는 숫자들이 설치한 앱의 ID입니다.
 
 이 숫자를 복사해서
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/12_make_project.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/12_make_project.png" %}
 
 빨간색으로 가려진 부분에 붙여 넣기를 해주시면 됩니다.
 
@@ -129,7 +129,7 @@ Configure를 클릭해주세요
 
 여기까지 오셨다면 아래와 같은 화면을 보실 수 있습니다.
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/17_make_project.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/17_make_project.png" %}
 
 레포지토리 설명은 나중에 AWS가 탬플릿 코드가 포함된 레포지토리를 만들어줄 때 첨부되는 설명입니다.
 
@@ -143,7 +143,7 @@ Configure를 클릭해주세요
 
 부끄러워하지 마시고 당당하게 여러분의 코드를 공개하십쇼
 
-<center><img src="/assets/img/aws-making-discord-bot/ch1/18_make_project.png" width="" height="50%"></center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch1/18_make_project.png" %}
 
 다음으로 여러분의 봇이 작동할 인스턴스, '클라우드'을 선택하는 과정입니다.
 

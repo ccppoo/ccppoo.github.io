@@ -92,8 +92,7 @@ Github은 git이라는 버전 관리 시스템, 쉽게 말하면 '코드 관리'
 
 git은 메모장에 작성한 코드가 어떤 수정이 있었는지 저장하고 비교해주는 편한 기능이 있는 도구라고 보시면 됩니다.
 
-<center><img src="/assets/img/aws-making-discord-bot/ch0/git_img.png" width="" height="300"></center>
-<center>[Wikipedia-git 에서 가져온 사진]</center><br>
+{% include image.html src="/assets/img/aws-making-discord-bot/ch0/git_img.png" caption="Wikipedia-git 에서 가져온 사진"%}
 
 흔히 위와 같이 CLI에 알 수 없는 명령어들이 득실득실한 모습을 보셨을 가능성이 높으셨을 겁니다.
 
