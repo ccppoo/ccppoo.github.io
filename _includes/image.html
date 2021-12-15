@@ -25,11 +25,17 @@
         {% endif %}
 
         alt=" {{ include.alt }} "
-        height=" {{ include.height | default : "" }} "
-        width=" {{ include.width | default : "" }} "
-        max-height =" {{ include.max-height | default : "" }} "
-        max-width = " {{ include.max-width | default : "" }} "
+        height=" {{ include.height | default : "auto" }} "
+        width=" {{ include.width | default : "100%" }} "
+        max-height =" {{ include.max-height | default : "auto" }} "
+        max-width = " {{ include.max-width | default : "100%" }} "
     />
+    {% if {{include.caption}}%}
+    <p style="text-align : center;">
+        {{include.caption}}
+    </p>
+    {% endif %}
+
     {% if {{include.url}}%}
         </a>
     {% endif %}
