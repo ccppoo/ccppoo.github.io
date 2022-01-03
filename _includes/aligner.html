@@ -17,3 +17,9 @@
 </div>
 
 {% assign column = false %}
+
+{% if {{include.caption}}%}
+<p style="text-align : center;">
+    {{include.caption}}
+</p>
+{% endif %}
